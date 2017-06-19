@@ -7,10 +7,6 @@
         };
         this.arrayOfFilms = [];
         this.items = items.Search;
-        this.counter = 0;
-        this.searchValue = 'Lock';
-        this.eventHolder = $({});
-        this.updateEventName = "update";
         this.buildDefaultGallery();
     }
     
